@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8171626569:AAHFCwYirjMnGsa-UQApf_2fmVvid1aISU0")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8226360790:AAH7DPXxvUinXEKnQBub7zExNb9uNkzaC78")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     result = 1 + 1
