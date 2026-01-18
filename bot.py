@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8171626569:AAHFCwYirjMnGsa-UQApf_2fmVvid1aISU0")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("1 + 1 = 2")
